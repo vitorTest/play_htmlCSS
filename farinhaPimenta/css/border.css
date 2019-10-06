@@ -1,0 +1,15 @@
+#first{
+/*	background-image: url(images/shapiro.JPEG);
+	background-repeat: no-repeat;*/
+	width: 500px;
+	height: 500px;
+}
+
+a{
+	display: block;
+	width: 100px;
+	/*-webkit-border-image: url(images/border.gif);*/
+
+	-webkit-border-image: url(images/border.gif) 10 10 10 10 stretch;
+
+}

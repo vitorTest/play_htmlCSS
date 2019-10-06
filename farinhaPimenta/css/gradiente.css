@@ -1,0 +1,11 @@
+div{
+	width: 200px;
+	height: 200px;
+	background-color: #FFF;
+
+	/*Case the browser doesn't accept gradient*/
+	background-image: url(https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/09/yellow-purple.png);
+	/*Firefox 3.6+*/
+	background-image: -moz-linear-gradient(green 50%, red 90%);
+
+}
