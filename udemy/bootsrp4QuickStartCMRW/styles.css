@@ -5,10 +5,13 @@ body{
 	height: 100%;
 }
 
-/*cover*/
+img {
+	max-width: 100%;
+}
 
+/*cover*/
 #cover{
-	background: #222 url('img/stars.jpg') center center no-repeat ;
+	background: #222 url('img/stars.jpg') center center no-repeat;
 	background-size: cover;
 	color: white;
 	height: 100%;
@@ -21,6 +24,57 @@ body{
 	width: 100%;
 }
 
+/*form*/
 .form-inline > * {
    margin-left:4px;
+}
+
+.blink-down-arrow{
+	color: white;
+	animation: blink-animation 3s linear infinite;
+  	-webkit-animation: blink-animation 3s linear infinite;;
+}
+
+@keyframes blink-animation {
+  0%,100% { opacity: 0.1 }
+  50% { opacity: 1 }
+}
+@-webkit-keyframes blink-animation {
+  0%,100% { opacity: 0.2 }
+  50% { opacity: 1 }
+}
+
+/*section-content*/
+.section-content{
+	padding: 5rem 0;
+}
+
+#about{
+	background: url('img/girlincar.jpg') center center no-repeat;
+}
+
+.about-text{
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 1.875rem;
+}
+
+/*carousel*/
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/*card*/
+.card-header{
+	background-color: #FFFFFF;
+}
+
+/*footer*/
+#footer-main{
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
 }
